@@ -1,0 +1,173 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.5;
+    background-color: #20222F;
+    color: white;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 1220px;
+    margin: 20px auto;
+    padding: 0 32px;
+}
+h1{
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+.heading strong{
+    margin-right: 150px;
+    font-size: 15px;
+    color: #6d6f75;
+}
+.mode strong{
+    font-size: 20px;
+    padding: 10px;
+    color: #6d6f75;
+}
+.mode i{
+    color: brown;
+    padding: 10px;
+    font-size: 20px;
+}
+.box{
+    width: 20%;
+    height: 200px;
+    background-color: #252B43 ;
+}
+.box strong{
+    color: #6d6f75;
+}
+.box1{
+    border-top: 4px solid blue;
+}
+.folow{
+    color: #6d6f75;
+}
+.box i{
+    padding: 10px 0;
+    margin-top: 20px;
+}
+.num{
+    font-size: 40px;
+}
+.box1 i{
+    color: blue;
+}
+.box1 .drop i{
+    color: green;
+}
+.box1 .drop{
+    color: green;
+}
+.insta{
+    border-top: 4px solid crimson;
+}
+.insta i{
+ color: crimson;
+}
+.insta .drop i{
+    color: green;
+}
+.insta .drop{
+    color: green;
+}
+.youtube{
+    color: red;
+    border-top: 4px solid red;
+}
+.youtube .num{
+    color: white;
+}
+h2{
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.box-subpart1{
+    width: 20%;
+    height: 150px;
+    background-color: #252B43;
+    margin-top: 20px;
+}
+.sub{
+    margin-bottom: 80px;
+}
+.sub strong{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.sub i{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    color: blue;
+}
+.sub2{
+    margin-bottom: 20px;
+}
+.sub2 strong{
+    font-size: 15px;
+    margin-left: 10px;
+}
+.sub2 i{
+    font-size: 12px;
+    
+}
+.up{
+    color: green;
+}
+.down{
+    color: red;
+}
+.insta-1 i{
+    color: crimson;
+}
